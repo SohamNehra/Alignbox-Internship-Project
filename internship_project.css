@@ -1,0 +1,1252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width:768px){
+  .navbar {
+    display: flex;
+    padding: 0.3px;
+    background-color: rgba(0, 0, 0, 0.877);
+    align-items: center;
+    text-align: center;
+    border: 0px;
+    border-color: silver;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 12px !important;
+  
+  }
+  .button {
+    border: 2px;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: silver;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+    font-size: 12px !important;
+  }
+  .button:hover {
+    size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 251);
+    font-size: 17px;
+    cursor: pointer;
+    border-color: silver;
+    font-size: 12px !important;
+  }
+  
+  .carousel {
+    margin: 12px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px !important;
+  }
+  
+  .slides {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    font-size: 12px !important;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    height: 400px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.5s;
+    width: 100%;
+    font-size: 12px !important;
+  }
+  
+  .carousel__nav {
+    padding: 1.25rem 0.5rem;
+    font-size: 12px !important;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #5ad9ca;
+    border-radius: 50%;
+    color: #2e7d81;
+    display: inline-flex;
+    height: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    width: 0.5rem;
+    font-size: 12px !important;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px !important;
+  }
+  
+  .slide-1 {
+    background-color: #fdc;
+  
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+    font-size: 12px !important;
+  }
+  
+  .slide-2 {
+    background-color: #bfd;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+    font-size: 12px !important;
+    width: 100%;
+  }
+  
+  .slide-3 {
+    background-color: #cdf;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    font-size: 12px !important;
+  }
+  
+  .slide-4 {
+    background-color: #dca;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+    font-size: 12px !important;
+  }
+  
+  .slide-5 {
+    background-color: #ffc;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+    font-size: 12px !important;
+  }
+  
+  .carousel__skip-link {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    font-size: 12px !important;
+  }
+  
+  .carousel__skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 400px;
+    justify-content: center;
+    opacity: 0.8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+    font-size: 12px !important;
+  }
+  .head2 {
+    border: 2px;
+    color: rgb(2, 1, 1);
+    padding: 10px;
+    border-color: silver;
+    align-items: center;
+    align-content: center;
+    font-size: 37px;
+    font-family: "Ubuntu";
+    font: bold;
+    margin: 27px;
+    text-align: center;
+    font-size: 12px !important;
+  }
+  
+  .head2:hover {
+    border: 2px;
+    color: rgb(1, 1, 2);
+    padding: 10px;
+    border-color: silver;
+    align-items: center;
+    align-content: center;
+    font-size: 37px;
+    font-family: "Ubuntu";
+    font: bold;
+    margin: 27px;
+    text-align: center;
+    font-size: 12px !important;
+  }
+  
+  .section-padding {
+    padding: 2px 0;
+    font-size: 12px !important;
+  }
+  .placement_logo_1 {
+    background: rgb(198, 214, 228);
+    height: 160px;
+    display: flex !important;
+    padding: 20px;
+    width: 100%;
+    font-size: 12px !important;
+  
+  }
+  .owl-dots {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 12px !important;
+  }
+  .owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #878787 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 12px !important;
+  }
+  .owl-dot.active {
+    background-color: #000 !important;
+  }
+  
+  .product_bar {
+    display: flex;
+    font-size: 20px;
+    padding: 2px;
+    border: #000;
+    color: #85717c;
+    background-color: black;
+    padding: 0.3px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: 12px !important;
+  }
+  
+  .Courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 12px !important;
+  }
+  
+  .card {
+    background-color: #5ad9ca;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    /* padding: 20px; */
+    border-radius: 8px;
+    font-size: 12px !important;
+  }
+  
+  .card-image {
+    height: 150px;
+    font-size: 12px !important;
+  }
+  .imgsize_slide {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    font-size: 12px !important;
+  }
+  .imgsize {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    font-size: 12px !important;
+  }
+  
+  .card-content {
+    align-items: baseline;
+    height: 120px;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 12px !important;
+  }
+  
+  .card-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 12px !important;
+  }
+  
+  .card-desc p {
+    margin: 3px;
+    align-items: baseline;
+    font-size: 12px !important;
+  }
+  
+  .card-btn {
+    background-color: #fff;
+    text-align: center;
+    padding: 8px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0px 0px 8px 8px;
+    cursor: pointer;
+    font-size: 12px !important;
+  }
+  .card-btn:hover {
+    background-color: #000;
+    color: #bfd;
+    font-size: 12px !important;
+  }
+  
+  .placement {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(190 225 255);
+    font-size: 12px !important;
+  }
+  .placement_logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px !important;
+  
+    padding: 18px;
+    width: 75%;
+    margin: 20px;
+    height: 86px;
+    flex-flow: column wrap;
+    font-size: 12px !important;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: rgb(5, 5, 5);
+    border-radius: 20px;
+    font-size: 12px !important;
+  }
+  .footer-content {
+    text-align: center;
+    align-items: initial;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: "Ubuntu";
+    display: flex;
+    flex-direction: row;
+    font-size: 12px !important;
+  }
+  .footer_image {
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(21, 28, 42); */
+    padding: 8px;
+    font-size: 12px !important;
+  }
+  .footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-size: 50px;
+    font-family: "Ubuntu";
+    font-size: 12px !important;
+  }
+  .footer-content p {
+    /* max-width: 500px; */
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #7a8699;
+    font-size: 20px;
+    font-family: "Ubuntu";
+    font-size: 12px !important;
+  }
+  
+  .footer_menu_button:hover {
+    size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor: pointer;
+    border-color: silver;
+    font-family: "Ubuntu";
+    font-size: 12px !important;
+  }
+  .about {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    font-size: 12px !important;
+  }
+  .footer-container {
+    width: 500px;
+    font-size: 12px !important;
+  }
+    
+}
+
+@media only screen and (max-width:426px){
+ .member {
+  display: none;
+}
+.navbar {
+  display: flex;
+  padding: 0.3px;
+  background-color: rgba(0, 0, 0, 0.877);
+  align-items: center;
+  text-align: center;
+  border: 0px;
+  border-color: silver;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 8px !important;
+
+}
+.button {
+  border: 2px;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+  font-size: 8px !important;
+}
+.button:hover {
+  size: 18px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 251);
+  font-size: 17px;
+  cursor: pointer;
+  border-color: silver;
+  font-size: 8px !important;
+}
+
+.carousel {
+  margin: 12px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 8px !important;
+}
+
+.slides {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  font-size: 8px !important;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 400px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.5s;
+  width: 100%;
+  font-size: 8px !important;
+}
+
+.carousel__nav {
+  padding: 1.25rem 0.5rem;
+  font-size: 8px !important;
+}
+
+.slider-nav {
+  align-items: center;
+  background-color: #5ad9ca;
+  border-radius: 50%;
+  color: #2e7d81;
+  display: inline-flex;
+  height: 0.5rem;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+  text-decoration: none;
+  width: 0.5rem;
+  font-size: 8px !important;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #fff;
+  font-size: 8px !important;
+}
+
+.slide-1 {
+  background-color: #fdc;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  font-size: 8px !important;
+}
+
+.slide-2 {
+  background-color: #bfd;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  font-size: 8px !important;
+  width: 100%;
+}
+
+.slide-3 {
+  background-color: #cdf;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  font-size: 8px !important;
+}
+
+.slide-4 {
+  background-color: #dca;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  font-size: 8px !important;
+}
+
+.slide-5 {
+  background-color: #ffc;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  font-size: 8px !important;
+}
+
+.carousel__skip-link {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  font-size: 8px !important;
+}
+
+.carousel__skip-link:focus {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  height: 400px;
+  justify-content: center;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 8px !important;
+}
+.head2 {
+  border: 2px;
+  color: rgb(2, 1, 1);
+  padding: 10px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 37px;
+  font-family: "Ubuntu";
+  font: bold;
+  margin: 27px;
+  text-align: center;
+  font-size: 8px !important;
+}
+
+.head2:hover {
+  border: 2px;
+  color: rgb(1, 1, 2);
+  padding: 10px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 37px;
+  font-family: "Ubuntu";
+  font: bold;
+  margin: 27px;
+  text-align: center;
+  font-size: 8px !important;
+}
+
+.section-padding {
+  padding: 2px 0;
+  font-size: 8px !important;
+}
+.placement_logo_1 {
+  background: rgb(198, 214, 228);
+  height: 160px;
+  display: flex !important;
+  padding: 20px;
+  width: 100%;
+  font-size: 8px !important;
+
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+  font-size: 8px !important;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+  font-size: 8px !important;
+}
+.owl-dot.active {
+  background-color: #000 !important;
+}
+
+.product_bar {
+  display: flex;
+  font-size: 20px;
+  padding: 2px;
+  border: #000;
+  color: #85717c;
+  background-color: black;
+  padding: 0.3px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  font-size: 8px !important;
+}
+
+.Courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 8px !important;
+}
+
+.card {
+  background-color: #5ad9ca;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  /* padding: 20px; */
+  border-radius: 8px;
+  font-size: 8px !important;
+}
+
+.card-image {
+  height: 150px;
+  font-size: 8px !important;
+}
+.imgsize_slide {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  font-size: 8px !important;
+}
+.imgsize {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  font-size: 8px !important;
+}
+
+.card-content {
+  align-items: baseline;
+  height: 120px;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 8px !important;
+}
+
+.card-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 8px !important;
+}
+
+.card-desc p {
+  margin: 3px;
+  align-items: baseline;
+  font-size: 8px !important;
+}
+
+.card-btn {
+  background-color: #fff;
+  text-align: center;
+  padding: 8px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0px 0px 8px 8px;
+  cursor: pointer;
+  font-size: 8px !important;
+}
+.card-btn:hover {
+  background-color: #000;
+  color: #bfd;
+  font-size: 8px !important;
+}
+
+.placement {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(190 225 255);
+  font-size: 8px !important;
+}
+.placement_logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 8px !important;
+
+  padding: 18px;
+  width: 75%;
+  margin: 20px;
+  height: 86px;
+  flex-flow: column wrap;
+  font-size: 8px !important;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: rgb(5, 5, 5);
+  border-radius: 20px;
+  font-size: 8px !important;
+}
+.footer-content {
+  text-align: center;
+  align-items: initial;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: 40px;
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: row;
+  font-size: 8px !important;
+}
+.footer_image {
+  width: 40px;
+  height: 40px;
+  /* background-color: rgb(21, 28, 42); */
+  padding: 8px;
+  font-size: 8px !important;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-size: 50px;
+  font-family: "Ubuntu";
+  font-size: 8px !important;
+}
+.footer-content p {
+  /* max-width: 500px; */
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #7a8699;
+  font-size: 20px;
+  font-family: "Ubuntu";
+  font-size: 8px !important;
+}
+
+.footer_menu_button:hover {
+  size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+  border-color: silver;
+  font-family: "Ubuntu";
+  font-size: 8px !important;
+}
+.about {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  font-size: 8px !important;
+}
+.footer-container {
+  width: 500px;
+  font-size: 8px !important;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+.navbar {
+  display: flex;
+  padding: 0.3px;
+  background-color: rgba(0, 0, 0, 0.877);
+  align-items: center;
+  text-align: center;
+  border: 0px;
+  border-color: silver;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.button {
+  border: 2px;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+.button:hover {
+  size: 18px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 251);
+  font-size: 17px;
+  cursor: pointer;
+  border-color: silver;
+}
+
+.carousel {
+  margin: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 400px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.5s;
+  width: 100%;
+}
+
+.carousel__nav {
+  padding: 1.25rem 0.5rem;
+}
+
+.slider-nav {
+  align-items: center;
+  background-color: #5ad9ca;
+  border-radius: 50%;
+  color: #2e7d81;
+  display: inline-flex;
+  height: 0.5rem;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+  text-decoration: none;
+  width: 0.5rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.slide-1 {
+  background-color: #fdc;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.slide-2 {
+  background-color: #bfd;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.slide-3 {
+  background-color: #cdf;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.slide-4 {
+  background-color: #dca;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.slide-5 {
+  background-color: #ffc;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.carousel__skip-link {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+.carousel__skip-link:focus {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  height: 400px;
+  justify-content: center;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 100%;
+  z-index: 1;
+}
+.head2 {
+  border: 2px;
+  color: rgb(2, 1, 1);
+  padding: 10px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 37px;
+  font-family: "Ubuntu";
+  font: bold;
+  margin: 27px;
+  text-align: center;
+}
+
+.head2:hover {
+  border: 2px;
+  color: rgb(1, 1, 2);
+  padding: 10px;
+  border-color: silver;
+  align-items: center;
+  align-content: center;
+  font-size: 37px;
+  font-family: "Ubuntu";
+  font: bold;
+  margin: 27px;
+  text-align: center;
+}
+
+.section-padding {
+  padding: 2px 0;
+}
+.placement_logo_1 {
+  background: rgb(198, 214, 228);
+  height: 160px;
+  display: flex !important;
+  padding: 20px;
+  width: 100%;
+
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: #000 !important;
+}
+
+.product_bar {
+  display: flex;
+  font-size: 20px;
+  padding: 2px;
+  border: #000;
+  color: #85717c;
+  background-color: black;
+  padding: 0.3px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.Courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  background-color: #5ad9ca;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  /* padding: 20px; */
+  border-radius: 8px;
+}
+
+.card-image {
+  height: 150px;
+}
+.imgsize_slide {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+}
+.imgsize {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-content {
+  align-items: baseline;
+  height: 120px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card-desc p {
+  margin: 3px;
+  align-items: baseline;
+}
+
+.card-btn {
+  background-color: #fff;
+  text-align: center;
+  padding: 8px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0px 0px 8px 8px;
+  cursor: pointer;
+}
+.card-btn:hover {
+  background-color: #000;
+  color: #bfd;
+}
+
+.placement {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(190 225 255);
+}
+.placement_logo {
+  display: flex;
+  flex-direction: row;
+
+  padding: 18px;
+  width: 75%;
+  margin: 20px;
+  height: 86px;
+  flex-flow: column wrap;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: rgb(5, 5, 5);
+  border-radius: 20px;
+}
+.footer-content {
+  text-align: center;
+  align-items: initial;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: 40px;
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: row;
+}
+.footer_image {
+  width: 40px;
+  height: 40px;
+  /* background-color: rgb(21, 28, 42); */
+  padding: 8px;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-size: 50px;
+  font-family: "Ubuntu";
+}
+.footer-content p {
+  /* max-width: 500px; */
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #7a8699;
+  font-size: 20px;
+  font-family: "Ubuntu";
+}
+
+.footer_menu_button:hover {
+  size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+  border-color: silver;
+  font-family: "Ubuntu";
+}
+.about {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+}
+.footer-container {
+  width: 500px;
+}
